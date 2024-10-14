@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  text-decoration: none;
+}
+select {
+  border: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+#header {
+  padding: 25px 0;
+  border-bottom: 1.5px solid grey;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+}
+nav {
+  width: 640px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #1f2e35cc;
+  font-size: 18px;
+  font-weight: 400;
+}
+nav select {
+  border: none;
+  font-size: 16px;
+}
+
+.icons span {
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1010px;
+  width: 100%;
+}
+
+.main {
+  padding: 110px 0;
+  display: block;
+}
+
+.main h1 {
+  margin: 30px 0;
+  width: 430px;
+  font-size: 39px;
+}
+.main h1 span {
+  color: #ee4248;
+  font-weight: 600;
+}
+
+.main p {
+  margin: 30px 0;
+  font-weight: 300;
+  font-size: 17px;
+  width: 450px;
+  line-height: 27px;
+}
+
+.main button {
+  width: 140px;
+  height: 40px;
+  background: #ee4248;
+  color: #fff;
+  font-weight: 300;
+  border-style: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 500px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px 0;
+  background: #f6f6f6;
+  gap: 45px;
+  padding-left: 85px;
+}
+
+.box-text img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.box-text h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.box-text h1 span {
+  color: #ee4248;
+}
+
+.box-text p {
+  font-size: 16px;
+  font-weight: 300;
+  width: 510px;
+  margin: 10px 0;
+}
+
+.box-text p span {
+  color: #ee4248;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.pro-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pro-text img {
+  max-width: 80px;
+}
+
+.pro-text h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #ee4248;
+}
+
+.pro-text p {
+  display: flex;
+  font-size: 17px;
+  font-weight: 300;
+  margin: 20px 0;
+  gap: 100px;
+}
+
+.pro-text button {
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  background: #ee4248;
+  border-style: none;
+  border-radius: 4px;
+}
